@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="415dp"
+    android:layout_height="735dp"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="735dp"
+        android:background="@drawable/fondo3"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="LAS MEJORES PIZZAS"
+            android:textColor="#FF0000"
+            android:textSize="65px" />
+
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="-30dp"
+            android:layout_marginTop="122dp"
+            android:backgroundTint="#FFA726"
+            android:text="+"></Button>
+
+        <Button
+            android:id="@+id/suma2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="322dp"
+            android:backgroundTint="#FFA726"
+            android:text="+"></Button>
+
+        <Button
+            android:id="@+id/resta2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="372dp"
+            android:backgroundTint="#FFA726"
+            android:text="-"></Button>
+
+        <Button
+            android:id="@+id/suma3"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="490dp"
+            android:backgroundTint="#FFA726"
+            android:text="+"></Button>
+
+        <Button
+            android:id="@+id/resta3"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="540dp"
+            android:backgroundTint="#FFA726"
+            android:text="-"></Button>
+
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="170dp"
+            android:backgroundTint="#FFA726"
+            android:text="-"></Button>
+
+        <TextView
+            android:id="@+id/cantidad1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-320dp"
+            android:layout_marginTop="120dp"
+            android:background="@color/white"
+            android:textColor="#FF66CC"></TextView>
+
+        <TextView
+            android:id="@+id/cantidad2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="350dp"
+            android:background="@color/white"
+            android:textColor="#FF66CC"></TextView>
+
+        <TextView
+            android:id="@+id/cantidad3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="500dp"
+            android:background="@color/white"
+            android:textColor="#FF66CC"></TextView>
+
+        <TextView
+            android:id="@+id/pago"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="600dp"
+            android:textColor="#FF0000"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="210dp"
+            android:text="AGUA"
+            android:textColor="#EF5350"
+            android:textSize="60px"></TextView>
+
+        <ImageView
+            android:id="@+id/fanta"
+            android:layout_width="75dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/icon6"></ImageView>
+
+        <ImageView
+            android:id="@+id/coca"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-110dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/icon8"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-135dp"
+            android:layout_marginTop="420dp"
+            android:text="RED-COLA"
+            android:textColor="#EF5350"
+            android:textSize="60px"></TextView>
+
+        <ImageView
+            android:id="@+id/Sprite"
+            android:layout_width="73dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-90dp"
+            android:layout_marginTop="460dp"
+            android:background="@drawable/icon7"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-80dp"
+            android:layout_marginTop="610dp"
+            android:text="FRESCA"
+            android:textColor="#EF5350"
+            android:textSize="60px"></TextView>
+
+        <ImageButton
+            android:id="@+id/atras"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/atras"></ImageButton>
+
+        <Button
+            android:id="@+id/agregarAlCarro"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="660dp"
+            android:backgroundTint="#FFA726"
+            android:text="Agregar"></Button>
+
+        <Button
+            android:id="@+id/finalizarPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-300dp"
+            android:layout_marginTop="660dp"
+            android:backgroundTint="#FFA726"
+            android:text="finalizarPedido" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
