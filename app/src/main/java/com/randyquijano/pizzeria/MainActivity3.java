@@ -21,9 +21,9 @@ public class MainActivity3 extends AppCompatActivity {
     TextView cantidad2;
     TextView cantidad3;
     TextView pago;
-    double pizzaPeperoniPrice = 101.0;
-    double pizzaItalianaPrice = 151.0;
-    double pizzaMexicanaPrice = 201.0;
+    double pizzaPeperoniPrice = 100.0;
+    double pizzaItalianaPrice = 150.0;
+    double pizzaMexicanaPrice = 200.0;
     double total = 0.0;
 
     int cantidadActual = 0;

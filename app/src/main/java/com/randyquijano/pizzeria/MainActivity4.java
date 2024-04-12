@@ -16,9 +16,9 @@ public class MainActivity4 extends AppCompatActivity {
     TextView cantidad2;
     TextView cantidad3;
     TextView pago;
-    double aguaPrice = 151.0;
-    double redColaPrice = 251.0;
-    double frescaPrice = 201.0;
+    double aguaPrice = 15.0;
+    double redColaPrice = 25.0;
+    double frescaPrice = 20.0;
     double total = 0.0;
 
     int cantidadActual = 0;
